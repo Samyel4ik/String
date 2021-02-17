@@ -10,14 +10,14 @@ public class Strings1 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите символ:");
         String s = scanner.nextLine();
+        char[] array = s.toCharArray();
 
-
-//        if (Character.isUpperCase(s)) {
-//            System.out.println("Символ был в верхнем регистре");
-//            System.out.println(s.toLowerCase());
-//        } else {
-//            System.out.println("Символ был в нижнем регистре");
-//            System.out.println(s.toUpperCase());
-//        }
+        if (Character.isUpperCase(array[0])) {
+            System.out.println("Символ был в верхнем регистре");
+            System.out.println(s.toLowerCase());
+        } else {
+            System.out.println("Символ был в нижнем регистре");
+            System.out.println(s.toUpperCase());
+        }
     }
 }
