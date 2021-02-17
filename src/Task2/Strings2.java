@@ -13,8 +13,6 @@ public class Strings2 {
                 array[i] = '_';
             }
         }
-        //System.out.println(Arrays.toString(array));
-
         String str1 = new String(array);
         System.out.println(str1);
     }

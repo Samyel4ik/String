@@ -6,6 +6,7 @@ public class Strings1 {
     // дан символ, если он в нижнем регистре - преобразовать в верхний,
     // если в верхнем - то в нижний, т.е. "с" -> "С", "С" -> "с"
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите символ:");
         String s = scanner.nextLine();
