@@ -8,7 +8,7 @@ public class Task3M3 {
         String str = "the world 12 is beautiful 45  when 42 there is no 3 war in 2 the world";
         char[] array = String0.arrayString(str);
         //char [] array = str.toCharArray();
-        
+
         int number = 0;
 
         for (int i = 0; i < array.length; i++) {
