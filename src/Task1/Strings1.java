@@ -10,10 +10,10 @@ public class Strings1 {
         System.out.print("Введите символ:");
         String s = scanner.nextLine();
 
-        if (s == s.toUpperCase()){
+        if (s == s.toUpperCase()) {
             System.out.println("Символ был в верхнем регистре");
             System.out.println(s.toLowerCase());
-        }else {
+        } else {
             System.out.println("Символ был в нижнем регистре");
             System.out.println(s.toUpperCase());
         }
