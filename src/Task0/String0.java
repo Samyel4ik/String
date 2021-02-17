@@ -13,7 +13,6 @@ public class String0 {
         return array;
     }
 
-
     public static int numCharactersArray(String str) {   // подсчет количества элементов в верхнем регистре
         char[] array = arrayString(str);
         int t = 0;
@@ -41,9 +40,6 @@ public class String0 {
         }
         String str1 = new String(array1);
         str1 = str1.toLowerCase();
-        // выводим строку приведя ее к нижнему регистру
-
         return str1;
     }
-
 }
