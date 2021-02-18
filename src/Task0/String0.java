@@ -7,14 +7,9 @@ public class String0 {
         String str = "thirdOneWithMoreWords";
         System.out.println(modifiedString(str));
     }
-
-    public static char[] arrayString(String str) {
-        char[] array = str.toCharArray();
-        return array;
-    }
-
+    
     public static int numCharactersArray(String str) {   // подсчет количества элементов в верхнем регистре
-        char[] array = arrayString(str);
+        char[] array = str.toCharArray();
         int t = 0;
         for (int i = 0; i < array.length; i++) {
             if (Character.isUpperCase(array[i])) {
@@ -25,7 +20,7 @@ public class String0 {
     }
 
     public static String modifiedString(String str) {
-        char[] array = arrayString(str);
+        char[] array = str.toCharArray();
         char[] array1 = new char[array.length + numCharactersArray(str)];  // создание массива длинной предусматривающее все символы и разделитель '_'
         int a = 0;
         for (int i = 0; i < array.length; i++) {      // прогоняем массив исходный, сдвигая перед боьшим символом на '_'
